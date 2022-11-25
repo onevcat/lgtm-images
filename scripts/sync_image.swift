@@ -17,13 +17,17 @@ var text = "## Images\n\n"
 let prefix = "https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/"
 let divider = "---"
 
-let content = imageNames.map {
-  [
-    divider,
-    "<img src=\"\(prefix)\($0)\" width=\"200\">\n",
-    "`![](\(prefix)\($0))`\n"
-  ].joined(separator: "\n")
-}.joined(separator: "\n")
+let content = imageNames
+  .filter {
+    $0 != ".DS_Store"
+  }
+  .map {
+    [
+      divider,
+      "<img src=\"\(prefix)\($0)\" width=\"200\">\n",
+      "`![](\(prefix)\($0))`\n"
+    ].joined(separator: "\n")
+  }.joined(separator: "\n")
 
 text.append(content)
 

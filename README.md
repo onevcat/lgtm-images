@@ -21,11 +21,6 @@
 `![](https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/fBp2bLg.jpg)`
 
 ---
-<img src="https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/.DS_Store" width="200">
-
-`![](https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/.DS_Store)`
-
----
 <img src="https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/kEYcbKY.png" width="200">
 
 `![](https://raw.githubusercontent.com/onevcat/lgtm-images/master/images/kEYcbKY.png)`
